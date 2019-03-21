@@ -33,7 +33,7 @@ def sub(aint, bint):
     return aint / bint
 
 def float_demo():
-    float = 1.90
+    float = 2.90
     print(float)
     print(type(float))
 
