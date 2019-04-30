@@ -9,23 +9,23 @@ def int_demo(aint,bint):# 传参方法
 
 
 if __name__ == '__main__':
-    # a = 6
-    # b = 3
-    # c = a + b
-    # print(c)
-    # a = int_demo(13,7)
-    # print(a)
+    a = 6
+    b = 3
+    c = a + b
+    print(c)
+    a = int_demo(13,7)
+    print(a)
 # ------------------------------------------------
     list = [1,2,3,4,5,6,7,8,9,10]
     list[0] = 1   # 更新数组
-    # print(list[0])
-    # print(list[1])
-    # print(list[-1])
-    # print(list[-2])
-    # print(list.pop())
-    # print(list)
-    # print(list.pop(2))
-    # print(list)
+    print(list[0])
+    print(list[1])
+    print(list[-1])
+    print(list[-2])
+    print(list.pop())
+    print(list)
+    print(list.pop(2))
+    print(list)
 # ------------------------------------------------------------------
     adict = {"name": "ysl", "pwd": "123456"}
     print(adict)
@@ -56,24 +56,21 @@ if __name__ == '__main__':
     for i in range(10,3,-1):
         print(i)
 # ----------------------------------------------------
-#     alist = ['我','不','喜','欢','你']  # 0.1.2.3.4
-#     for i in range(5):
-#         print(alist[i])   # 会把 alist 的索引 从0 到 4 取一遍
-#
-#     for i in alist:
-#         print(i)
-# ---------------------------------------------------
-#     # 断言为True 不会有报错
-#     assert 4>2
-#     # 断言 为False 会报错 AssertionError
-#     assert 1>2
+    alist = ['我','不','喜','欢','你']  # 0.1.2.3.4
+    for i in range(5):
+        print(alist[i])   # 会把 alist 的索引 从0 到 4 取一遍
 
-    # # 断言字符串
-    astr = '一长串字符串'
-    # # 断言 astr 字符 内 是否包含 你 这个字
-    # assert '你' in astr
-    # # 判断 astr 字符内 是否不包含 你 这个字
-    # assert '你' not in astr
+    for i in alist:
+        print(i)
+# ---------------------------------------------------
+    # 断言为True 不会有报错
+    assert 4>2
+    # 断言 为False 会报错 AssertionError
+    assert 1>2
+
+
+
+
 # ---------------------------------------------------------
     a = True
     if a :
@@ -81,19 +78,19 @@ if __name__ == '__main__':
     else:
         print('我就呵呵不说话')
 # ------------------------------------------------------
-    a = 0
-    # while : while(当) 条件: -->条件为True 进入循环,直到 条件为 false
-    while a <5:
-        print('hello world')
-        a += 1
+#     a = 0
+#     # while : while(当) 条件: -->条件为True 进入循环,直到 条件为 false
+#     while a <5:
+#         print('hello world')
+#         a += 1
 # -------------------------------------------------------
    # try 用于异常处理;如果出现异常 则执行 except 内的代码 ; 不会影响后面的代码  继续执行
    # 应用场景:  用于 包裹 可能会出错的代码块
-    try:
-        assert '你' in astr
-    except:
-        print('断言没通过')
-    print('------')
+   #  try:
+   #      assert '你' in astr
+   #  except:
+   #      print('断言没通过')
+   #  print('------')
 # -----------------------------------------------------------
     for i in range(5):
         print(i)

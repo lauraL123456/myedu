@@ -9,7 +9,7 @@ import json
 
 
 class Assertions:
-    def __init__(self):
+    def   __init__(self):
         self.log = Log.MyLog()
 
     def assert_code(self, code, expected_code):

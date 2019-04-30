@@ -12,7 +12,7 @@
 #         for j in range(2):
 #             print('内循环')
 
-# def chenfabiao():
+# def chenfabiao():     ##九九乘法表
 #     for i in range(1,10):
 #         for j in range(1,i+1):
 #             print('%s × %s = %s' %(i,j,i*j),end = ' ')
@@ -75,4 +75,8 @@ def sum_demo(aint,bint):
 
 if __name__ == '__main__':
     # chenfabiao()
-    sum_demo(10,20)
+    sum_demo(2,10)
+    # list_bianli()
+    # nei_xunhuan()
+    # jishuxiangjia()
+    # sum_demo(aint,bint)

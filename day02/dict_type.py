@@ -15,14 +15,14 @@ def china_demo():
     print(type(loads))
     json_dumps = json.dumps(loads)
     print(json_dumps)
-    dumps = json.dump(loads, ensure_ascii=False)
+    dumps = json.dumps(loads, ensure_ascii=False)
     print(dumps)
 
 if __name__ == '__main__':
     # 打印adict_int 字典中 key 为 1 的值
     # print(adict_int[1])
     # 打印adict 字典
-    print(adict)
+    # print(adict)
     # 删除 adict 字典中 key为name的值，key 和value都会被删除
     # adict.pop('name')
     # 打印adict 字典中 key 为 name的值
